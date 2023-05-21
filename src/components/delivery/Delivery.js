@@ -13,13 +13,13 @@ function Delivery() {
       <div className={styles.box} >
         <img className={styles.image} src={car} alt=""></img>
                <h5 className={styles.header}>Lorem Ipsum</h5>  
-               <p className={styles.description}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>   
+               <p className={styles.description}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy tthe 1500s</p>   
 
             </div>
             <div className={styles.box} >
         <img className={styles.image} src={logistics} alt=""></img>
                <h5 className={styles.header}>Lorem Ipsum</h5>  
-               <p className={styles.description}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>   
+               <p className={styles.description}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy </p>   
 
             </div>
             <div className={styles.box} >
