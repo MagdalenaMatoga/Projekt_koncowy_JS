@@ -8,7 +8,7 @@ function Intro() {
       <div className={styles.introsection}> 
       <div className={styles.text}>
                <h3 className={styles.header}>Fresh delivery</h3>
-            <h1 className={styles.subheader}>Ekologiczne<br/>warzywa
+            <h1 className={styles.subheader}>Ekologiczne<br/>warzywa test
             </h1>
             </div>
 
