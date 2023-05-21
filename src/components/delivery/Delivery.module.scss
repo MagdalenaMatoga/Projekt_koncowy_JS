@@ -1,0 +1,50 @@
+  
+.deliverySection{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-items: flex-start;
+align-content: flex-start;
+margin: 0 auto;
+width: 1140px;
+margin-top: 60px;
+
+}
+
+.deliveryTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin: 35px auto ;
+}
+
+.box{
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    margin: 0 20px 20px 0;
+
+}
+
+.image{
+
+width: 65px;
+height: 65px;
+float: left;
+margin-bottom: 50px;
+
+}
+
+.header{
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+    margin-top: 0;
+    padding-left: 95px;
+}
+
+.description{
+    padding-left: 95px;
+}
+
+

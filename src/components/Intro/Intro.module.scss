@@ -1,0 +1,35 @@
+.introsection {
+    width: 100%;
+min-height: 854px;
+background-image: url("./background_2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+
+.text{
+    width: 712px;
+    min-height: 397px;
+    height: auto;
+    margin: 120px 0 0 auto;
+   }
+
+.header{
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    font-size: 1.875rem;
+    font-weight: 400;
+    margin: 0 auto 0 0;
+color: black;}
+
+.subheader{text-transform: uppercase;
+    letter-spacing: 12px;
+    font-size: 1.875rem;
+    font-weight: 400;
+    margin: 0 auto 0 0;
+color: black;}
