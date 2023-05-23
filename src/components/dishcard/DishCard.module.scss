@@ -1,0 +1,48 @@
+.card{
+    box-sizing: border-box;
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.2);
+    width: calc(33% - 40px);
+    border-radius: 20px;
+    color: #111111;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+	align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 16px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.image{
+
+display: block;
+height: 195px;
+object-fit: contain;
+border-radius: 15px;
+width: 100%;
+
+}
+
+
+.title{
+    display: table;
+    align-self: flex-start;
+    width: fit-content;
+    text-align: center;
+}
+
+.text{
+
+    font-style: italic;
+    margin: 20px 0 0;
+    font-size: 1.125rem;
+    word-wrap: break-word;
+
+
+}
