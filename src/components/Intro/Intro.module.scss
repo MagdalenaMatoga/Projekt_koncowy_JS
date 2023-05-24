@@ -1,7 +1,7 @@
 .introsection {
     width: 100%;
 min-height: 854px;
-background-image: url("./background_2.jpg");
+background-image: url("./background_3.jpeg");
 background-repeat: no-repeat;
 background-size: cover;
 display: flex;
@@ -10,6 +10,7 @@ flex-wrap: wrap;
 justify-content: center;
 align-items: center;
 align-content: center;
+color:white;
 }
 
 .text{
@@ -24,12 +25,13 @@ align-content: center;
     letter-spacing: 12px;
     font-size: 1.875rem;
     font-weight: 400;
-    margin: 0 auto 0 0;
-color: black;}
-
+    margin: 0 auto 0 30px;
+    color: white;
+    text-transform: uppercase;
+}
 .subheader{text-transform: uppercase;
     letter-spacing: 12px;
-    font-size: 1.875rem;
-    font-weight: 400;
-    margin: 0 auto 0 0;
-color: black;}
+    font-size: 4.875rem;
+    font-weight: 400px;
+    margin: 0 auto 0 30px;
+    color: white;}
