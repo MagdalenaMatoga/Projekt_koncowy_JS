@@ -1,48 +1,102 @@
+.dishList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    
+}
+
+.dishTitle{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px auto ;
+}
+
 .card{
     box-sizing: border-box;
     box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.2);
-    width: calc(33% - 40px);
+    width: calc(23% - 40px);
     border-radius: 20px;
     color: #111111;
     background-color: #ffffff;
-    flex-wrap: wrap;
 	align-items: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
     padding: 16px;
     text-align: center;
     margin: 20px;
+    padding: 20px 20px 20px;
+    display: flex;
 
+ 
+   
+   
 }
 
 .image{
-
-display: block;
 height: 195px;
 object-fit: contain;
-border-radius: 15px;
+border-radius: 25px;
 width: 100%;
 
 }
 
 
 .title{
-    display: table;
-    align-self: flex-start;
-    width: fit-content;
-    text-align: center;
+    display: inline-block;
+	flex-wrap: wrap;
+	align-items: center;
+    font-size: 1.125rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 15px auto ;
 }
 
 .text{
 
     font-style: italic;
-    margin: 20px 0 0;
-    font-size: 1.125rem;
+    margin: 20px auto;
+    font-size: 1.1rem;
     word-wrap: break-word;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
 
 
 }
+
+.btn{
+// margin: 20px;
+// display: flex;
+// text-align: center;
+// align-items: center;
+// display: flex;
+// flex-wrap: wrap;
+// align-items: center;
+// border-style: none ;
+
+display: flex;
+align-items: center;
+padding: 10px 15px 10px 15px;
+border-radius: 4px;
+border: 2px solid currentColor;
+color: var(--primary);
+background: none;
+cursor: pointer;
+font-weight: bold;
+ text-decoration: none;
+ margin: 30px auto;
+
+
+&:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 34px 0 rgba(188, 182, 184, 0.845)
+}}
+
+
