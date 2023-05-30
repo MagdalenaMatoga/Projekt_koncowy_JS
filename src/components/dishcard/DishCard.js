@@ -1,15 +1,31 @@
 import styles from './DishCard.module.scss'
-import img from './images/spaghetti.jpg'
 
-function DishCard() {
+
+
+
+
+function DishCard(props) {
+  const addToCart = () => {
+    if (localStorage.getItem(props.cardData.id) === null) {
+      localStorage.setItem(props.cardData.id, JSON.stringify({quantity: 1,product:props.cardData}))
+      } else {
+      const existingItem = JSON.parse(localStorage.getItem(props.cardData.id))
+      localStorage.setItem(props.cardData.id, JSON.stringify({quantity: existingItem.quantity + 1, product:props.cardData}))
+      }
+
+  }
+
     return (
 
-      <div className={styles.card}>
-        <h4 className={styles.title}>Spaghetti bolognese</h4>
-        <img className={styles.image} alt="" src={img}></img>
-        <p className={styles.text}>Podstawą dobrego spaghetti bolognese jest prawidłowo przyrządzony sos boloński. Jakość użytych składników i staranność jego wykonania przekłada się na efekt końcowy. Idealny sos boloński powinien dosłownie rozpływać się w ustach i mieć jednolitą, emulsyjną strukturę powstałą z długiego gotowania. </p>
+      <div className={styles.card} style={{
+        display: 'flex', paddingLeft: 30, alignItems:'center'
+      }}>
+        <h4 className={styles.title}>{props.cardData.title}</h4>
+        <img className={styles.image} alt="" src={"" + props.cardData.picture}></img>
+        <p className={styles.text}>{props.cardData.text} </p>
 
-        <a href="/" className="">more</a>
+
+        <button onClick={addToCart} className={styles.btn}>Zamów</button>
       </div>
 
     );

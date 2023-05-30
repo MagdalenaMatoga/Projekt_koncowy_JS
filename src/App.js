@@ -2,7 +2,7 @@ import { Routes, Route, Link, } from "react-router-dom";
 import Home from "./pages/home/Home"
 import Dishes from "./pages/dishes/Dishes";
 import Order from "./pages/order/Order";
-// import Basket from "./components/basket/Basket";
+import Basket from "./components/basket/Basket";
 
 
 
@@ -26,6 +26,7 @@ function App() {
                 <Route index element={<Home />} />
                 <Route path="/dishes" element={<Dishes />} />
                 <Route path="/order" element={<Order />} />
+                <Route path="/basket" element={<Basket />} />
                 
             </Routes>
             
