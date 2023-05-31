@@ -11,6 +11,7 @@ justify-content: center;
 align-items: center;
 align-content: center;
 color:white;
+
 }
 
 .text{
@@ -18,20 +19,24 @@ color:white;
     min-height: 776px;
     height: auto;
     margin: 120px 0 0 auto;
+   
    }
 
 .header{
     text-transform: uppercase;
     letter-spacing: 9px;
-    font-size: 1.875rem;
-    font-weight: 400;
-    margin: 0 auto 0 30px;
+    font-size: 8.125rem;
+    font-weight: 700;
+    margin: 0 auto 0 -206px;
     color: white;
-    text-transform: uppercase;
+    line-height: 0.8;
+
+    
 }
-.subheader{text-transform: uppercase;
+.subheader{
+    text-transform: uppercase;
     letter-spacing: 7px;
-    font-size: 4.875rem;
+    font-size: 2.875rem;
     font-weight: 400px;
-    margin: 0 auto 0 30px;
+    margin: 50px auto 0 -177px;
     color: white;}
