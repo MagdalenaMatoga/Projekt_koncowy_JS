@@ -1,0 +1,51 @@
+.details{
+    background: rgb(245, 240, 240);
+    position: fixed;
+    width: 45vw;
+    height: 77vh;
+    top: 142px;
+    left: 175px;
+    border-radius: 10px;
+}
+
+.close{display: flex;
+    align-items:flex-end;
+    padding: 10px 15px 10px 15px;
+    border-radius: 6px;
+    border: 2px solid currentColor;
+    color: var(--primary);
+    background: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 35px auto;
+    font-size: 20px;
+    
+    
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 34px 0 rgba(188, 182, 184, 0.845)
+    }};
+    
+
+
+
+.buy{
+    display: flex;
+align-items: center;
+padding: 10px 15px 10px 15px;
+border-radius: 6px;
+border: 2px solid currentColor;
+color: var(--primary);
+background: none;
+cursor: pointer;
+font-weight: bold;
+text-decoration: none;
+margin: 35px auto;
+font-size: 20px;
+
+
+&:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 34px 0 rgba(188, 182, 184, 0.845)
+}};
