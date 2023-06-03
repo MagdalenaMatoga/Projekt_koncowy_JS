@@ -1,3 +1,20 @@
-.basketLogo {
-    color: red;
-    }
+.cartContent {
+    position: fixed;
+    right: 50px;
+    top:20px;
+    z-index:500;
+  }
+  
+  .basketLogo {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .counter {
+    width: 10px;
+    display: inline-block;
+    line-height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    padding: 10px;
+  }

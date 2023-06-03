@@ -19,7 +19,7 @@ function DishCard(props) {
         display: 'flex', paddingLeft: 30, alignItems:'center'
       }}>
         <h4 className={styles.title}>{props.cardData.title}</h4>
-        <img className={styles.image} alt="" src={"" + props.cardData.picture}></img>
+        <img className={styles.image} alt="" src={"/images" + props.cardData.picture}></img>
         <p className={styles.text}>{props.cardData.text} </p>
         <h3 className={styles.price}>{props.cardData.price} </h3>
        
