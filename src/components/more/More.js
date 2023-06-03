@@ -6,9 +6,9 @@ function More() {
     return (
      
       <div className={styles.moresection}> 
-               <h3 className={styles.header}>​Fresh breads, cakes and pasties</h3>
-               <p className={styles.text}>​Nibh venenatis cras sed felis eget velit<br></br>
-                aliquet sagittis id. Tellus pellentesque eu tincidunt tortor aliquam nulla.</p>
+               <h3 className={styles.header}>Świeże owoce, warzywa i przyprawy</h3>
+               <p className={styles.text}> To najważniejsze źródło witamin, minerałów i przeciwutleniaczy.<br></br>
+               Wspierają zdrowie, poprawiają funkcjonowanie układu odpornościowego<br></br>pomagają w utrzymaniu dobrego samopoczucia.</p>
           
       
       

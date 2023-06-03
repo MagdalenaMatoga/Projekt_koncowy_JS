@@ -3,6 +3,7 @@ import Delivery from "../../components/delivery/Delivery";
 import Dishes from "../dishes/Dishes";
 import More from "../../components/more/More"
 import Basket from "../../components/basket/Basket"
+import Sweet from "../../components/sweet/Sweet"
 
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
         <Delivery />
         <More />
         <Dishes />
+        <Sweet />
        
         
       </div>
