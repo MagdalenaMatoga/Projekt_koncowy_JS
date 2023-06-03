@@ -1,4 +1,3 @@
-
 import styles from './Basket.modules.scss'
 import {useState, useEffect } from "react";
 import BasketDetails from "../basket.Details/BasketDetails";
@@ -30,12 +29,13 @@ const closedetails=()=>{setIsDetailsVisible(false)}
 
     return(
     <div>
-       
-        <div onClick={showdetails} className={styles.basketLogo} > logoKoszyk {cart}</div>
+<div className={styles.cart_content}>
+        <div  onClick={showdetails} className={styles.basketLogo}> To jest koszyk {cart}</div>
         {isDetailsVisible && <BasketDetails handleClose={closedetails} />}
         </div>
+        </div>
     )
-    
+
 }
 
 export default Basket

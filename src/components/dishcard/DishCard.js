@@ -2,8 +2,6 @@ import styles from './DishCard.module.scss'
 
 
 
-
-
 function DishCard(props) {
   const addToCart = () => {
     if (localStorage.getItem(props.cardData.id) === null) {
@@ -23,9 +21,11 @@ function DishCard(props) {
         <h4 className={styles.title}>{props.cardData.title}</h4>
         <img className={styles.image} alt="" src={"" + props.cardData.picture}></img>
         <p className={styles.text}>{props.cardData.text} </p>
-
-
+        <h3 className={styles.price}>{props.cardData.price} </h3>
+       
+        
         <button onClick={addToCart} className={styles.btn}>Zamów</button>
+       
       </div>
 
     );

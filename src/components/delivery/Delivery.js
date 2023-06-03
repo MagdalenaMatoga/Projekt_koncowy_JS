@@ -7,7 +7,8 @@ import vegetables from './images/vegetables.png'
 
 function Delivery() {
     return (
-      <>
+      <div className={styles.deliveryContainer} >
+    
       <h2 className={styles.deliveryTitle}>Jak to działa?</h2>
       <div className={styles.deliverySection}> 
       <div className={styles.box} >
@@ -36,7 +37,7 @@ function Delivery() {
             </div>
     
       </div>
-      </>
+      </div>
 
     );
   }

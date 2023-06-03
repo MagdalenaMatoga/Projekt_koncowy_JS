@@ -14,7 +14,7 @@
     align-content: center;
     color:white;
     font-family: 'Roboto', sans-serif;
-    margin-top: 45px;
+    margin-top: 60px;
     
     }
     
@@ -38,5 +38,9 @@
         letter-spacing: 7px;
         font-size: 4.875rem;
         font-weight: 400px;
-        margin: 138px auto 0 -164px;
-        color: white;}
+        margin: 0 auto 0 -203px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
