@@ -1,0 +1,52 @@
+.footer {
+    box-shadow: 0 -5px 40px #00000029;
+    padding: 20px 0;
+  
+  
+    .footerContainer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.2);
+      height: 130px;
+      margin: 0 auto;
+      width: 100%;
+    }
+  
+    .footerInfo {
+     display: flex;
+      flex-direction: column;
+      font-size: 30px;
+      margin-left: 50px;
+    }
+  
+    .footerCopy {
+      font-size: 1.1rem;
+      line-height: 1.2rem;
+      color: grey;
+      margin-top: 5px;
+    }
+  
+  .footerIcons {
+    display: flex;
+      margin-right: 25px;
+      padding: 5px;
+    }
+
+    .imaget {
+    margin:20px;
+    width: 50px;
+  
+  }
+
+  .imagef {
+    margin-right:60px;
+    width: 50px;
+    
+  }
+
+  .logo {
+    text-decoration: none;
+    color: black;
+  }
+}

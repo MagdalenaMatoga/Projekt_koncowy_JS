@@ -1,0 +1,46 @@
+
+
+.introsection {
+    width: 100%;
+    min-height: 856px;
+    background-image: url("./deser.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 60px;
+    
+    }
+    
+    .text{
+        width: 1548px;
+        min-height: 776px;
+        height: auto;
+        margin: 120px 0 0 auto;
+       }
+    
+    .header{
+        text-transform: uppercase;
+        letter-spacing: 9px;
+        font-size: 1.875rem;
+        font-weight: 400;
+        margin: 0 auto 0 -178px;
+        color: white;
+        text-transform: uppercase;
+    }
+    .subheader{text-transform: uppercase;
+        letter-spacing: 7px;
+        font-size: 4.875rem;
+        font-weight: 400px;
+        margin: 0 auto 0 -203px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }

@@ -1,0 +1,51 @@
+
+
+.introsection {
+    width: 100%;
+    min-height: 856px;
+    background-image: url("./background_3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+
+    }
+
+    .text{
+        width: 1548px;
+        min-height: 776px;
+        height: auto;
+        margin: 220px 0 0 788px;
+       }
+       
+    
+    .introHeader{
+        text-transform: uppercase;
+        letter-spacing: 9px;
+        font-size: 1.875rem;
+        font-weight: 400;
+        margin: 5px 400px 295px -188px;
+        color: white;
+        text-transform: uppercase;
+    }
+    .header{
+        text-transform: uppercase;
+        letter-spacing: 9px;
+        font-size: 1.875rem;
+        font-weight: 400;
+        margin: -14px auto -107px -177px;
+        color: white;
+        text-transform: uppercase;
+    }
+    .subheader{text-transform: uppercase;
+        letter-spacing: 7px;
+        font-size: 4.875rem;
+        font-weight: 400px;
+        margin: 110px auto 0 -191px;
+        color: white;}
