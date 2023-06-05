@@ -1,5 +1,3 @@
-/* BasketDetails.jsx */
-
 import styles from "./BasketDetails.module.scss";
 import { useContext, useEffect, useState } from "react";
 import { CartContext } from "../../App";
@@ -30,11 +28,17 @@ function BasketDetails(props) {
     }
   };
 
+  const addToCart = (id) => {
+    const newProduct = { ...cart[id], quantity: cart[id].quantity + 1 };
+    const newCart = { ...cart, [cart[id].product.id]: newProduct };
+    setCart({ ...newCart });
+  };
+
   return (
     <div className={styles.gridContainer}>
-        <div  onClick={props.handleClose}>
-        <img className={styles.close} alt="" src="/mark.png"/>
-        </div>
+      <div onClick={props.handleClose}>
+        <img className={styles.close} alt="" src="/mark.png" />
+      </div>
       <h2 className={styles.title}>Twoje zamówienie</h2>
       {cart &&
         Object.entries(cart).map((entry, index) => {
@@ -53,18 +57,20 @@ function BasketDetails(props) {
                 {itemObject.quantity} x {itemObject.product.price} zł
               </div>
               <div onClick={() => removeFromCart(itemObject.product.id)}>
-              <img className={styles.minus} alt="" src="/minus.png"/>
+                <img className={styles.minus} alt="" src="/minus.png" />
               </div>
-            </div>
+              <div onClick={() => addToCart(itemObject.product.id)}>
+                <img className={styles.plus} alt="" src="/minus.png" />
+              </div>
+              
+              </div>
+          
           );
         })}
-        
-     
       <div className={styles.buttonsContainer}>
-        {/* <div  onClick={props.handleClose}>
-        <img className={styles.close} alt="" src="/mark.png"/>
-        </div> */}
-        <button className={styles.buy} disabled>Zamów</button>
+        <button className={styles.buy} disabled>
+          Zamów
+        </button>
         <p className={styles.totalPrice}>cena: {totalPrice} zł</p>
       </div>
     </div>
