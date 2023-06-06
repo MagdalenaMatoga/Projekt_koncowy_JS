@@ -40,39 +40,46 @@ function BasketDetails(props) {
         <img className={styles.close} alt="" src="/mark.png" />
       </div>
       <h2 className={styles.title}>Twoje zamówienie</h2>
-      {cart &&
-        Object.entries(cart).map((entry, index) => {
-          const itemObject = entry[1];
-          return (
-            <div key={itemObject.product.id} className={styles.gridItem}>
-              <div className={styles.itemInfo}>
-                <img
-                  className={styles.cartPhoto}
-                  alt=""
-                  src={"images/" + itemObject.product.picture}
-                />
-                <span>{itemObject.product.title}</span>
-              </div>
-              <div>
-                {itemObject.quantity} x {itemObject.product.price} zł
-              </div>
-              <div onClick={() => removeFromCart(itemObject.product.id)}>
-                <img className={styles.minus} alt="" src="/minus.png" />
-              </div>
-              <div onClick={() => addToCart(itemObject.product.id)}>
-                <img className={styles.plus} alt="" src="/minus.png" />
-              </div>
-              
-              </div>
-          
-          );
-        })}
-      <div className={styles.buttonsContainer}>
-        <button className={styles.buy} disabled>
-          Zamów
-        </button>
-        <p className={styles.totalPrice}>cena: {totalPrice} zł</p>
-      </div>
+      {Object.keys(cart).length === 0 ? (
+        <p className={styles.emptyCartText}>Twój koszyk jest pusty</p>
+      ) : (
+        <>
+          <div className={styles.gridItems}>
+            {Object.entries(cart).map((entry, index) => {
+              const itemObject = entry[1];
+              return (
+                <div key={itemObject.product.id} className={styles.gridItem}>
+                  <div className={styles.itemInfo}>
+                    <img
+                      className={styles.cartPhoto}
+                      alt=""
+                      src={"images/" + itemObject.product.picture}
+                    />
+                    <span>{itemObject.product.title}</span>
+                    <div className={styles.cost}>
+                      {itemObject.quantity} x {itemObject.product.price} zł
+                    </div>
+                  </div>
+                  <div className={styles.btn}>
+                    <div onClick={() => removeFromCart(itemObject.product.id)}>
+                      <img className={styles.minus} alt="" src="/minus.png" />
+                    </div>
+                    <div onClick={() => addToCart(itemObject.product.id)}>
+                      <img className={styles.plus} alt="" src="/plus.png" />
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+          <div className={styles.buttonsContainer}>
+            <p className={styles.totalPrice}>Łączna kwota: {totalPrice} zł</p>
+            <button className={styles.buy} disabled>
+              Przejdź do kasy
+            </button>
+          </div>
+        </>
+      )}
     </div>
   );
 }

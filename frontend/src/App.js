@@ -26,7 +26,7 @@ function App() {
                         <Link className="link"to="/dishes">Dishes</Link>
                     </li>
                     <li className="navElement">
-                        <Link className="link"to="/order">Order</Link>
+                        <Link className="link"to="/order">Kontakt</Link>
                     </li>
                 </ul>
                 <Basket/>
