@@ -1,0 +1,60 @@
+{
+  "dishes": [
+    {
+      "id": 1,
+      "title": "spaghetti",
+      "picture": "spaghetti.jpg",
+      "price": "12",
+      "text": "Podstawą dobrego spaghetti bolognese jest prawidłowo przyrządzony sos boloński. Jakość użytych składników i staranność jego wykonania przekłada się na efekt końcowy. Idealny sos boloński powinien dosłownie rozpływać się w ustach i mieć jednolitą strukturę."
+    },
+    {
+      "id": 2,
+      "title": "Makaron ze szparagami",
+      "picture": "AdobeStock_95385090.jpeg",
+      "price": "12",
+      "text": "Prosty przepis na spaghetti ze szparagami dla 2 osób, z dodatkiem oliwy, czosnku i natki pietruszki"
+    },
+    {
+      "id": 3,
+      "title": "aplle",
+      "picture": "spaghetti.jpg",
+      "price": "12",
+      "text": "Podstawą dobrego spaghetti bolognese jest prawidłowo przyrządzony sos boloński. Jakość użytych składników i staranność jego wykonania przekłada się na efekt końcowy. Idealny sos boloński powinien dosłownie rozpływać się w ustach i mieć jednolitą strukturę."
+    },
+    {
+      "id": 4,
+      "title": "banana",
+      "picture": "spaghetti.jpg",
+      "price": "12",
+      "text": "Podstawą dobrego spaghetti bolognese jest prawidłowo przyrządzony sos boloński. Jakość użytych składników i staranność jego wykonania przekłada się na efekt końcowy. Idealny sos boloński powinien dosłownie rozpływać się w ustach i mieć jednolitą strukturę."
+    },
+    {
+      "id": 5,
+      "title": "banana",
+      "picture": "spaghetti.jpg",
+      "price": "12",
+      "text": "Podstawą dobrego spaghetti bolognese jest prawidłowo przyrządzony sos boloński. Jakość użytych składników i staranność jego wykonania przekłada się na efekt końcowy. Idealny sos boloński powinien dosłownie rozpływać się w ustach i mieć jednolitą strukturę."
+    },
+    {
+      "id": 6,
+      "title": "ananas",
+      "picture": "spaghetti.jpg",
+      "price": "12",
+      "text": "Podstawą dobrego spaghetti bolognese jest prawidłowo przyrządzony sos boloński. Jakość użytych składników i staranność jego wykonania przekłada się na efekt końcowy. Idealny sos boloński powinien dosłownie rozpływać się w ustach i mieć jednolitą strukturę."
+    },
+    {
+      "id": 7,
+      "title": "orange",
+      "picture": "spaghetti.jpg",
+      "price": "12",
+      "text": "Podstawą dobrego spaghetti bolognese jest prawidłowo przyrządzony sos boloński. Jakość użytych składników i staranność jego wykonania przekłada się na efekt końcowy. Idealny sos boloński powinien dosłownie rozpływać się w ustach i mieć jednolitą strukturę."
+    },
+    {
+      "id": 8,
+      "title": "orange",
+      "picture": "spaghetti.jpg",
+      "price": "12",
+      "text": "Podstawą dobrego spaghetti bolognese jest prawidłowo przyrządzony sos boloński. Jakość użytych składników i staranność jego wykonania przekłada się na efekt końcowy. Idealny sos boloński powinien dosłownie rozpływać się w ustach i mieć jednolitą strukturę."
+    }
+  ]
+}
