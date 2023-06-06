@@ -34,10 +34,13 @@ function Dishes() {
         <DishCard cardData={data[5]} />
         <DishCard cardData={data[6]} />
         <DishCard cardData={data[7]} />
+        
 
 
         </div>
+     
       </div>
+      
     );
   }
 

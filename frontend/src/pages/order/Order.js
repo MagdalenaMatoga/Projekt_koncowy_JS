@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./Order.module.scss";
+import Footer from '../../components/footer/Footer';
 
 function Order() {
   const [name, setName] = useState("");
@@ -62,7 +63,10 @@ function Order() {
         </button>
       </form>
     </div>
+    <Footer />
     </div>
+    
+    
   );
 }
 
