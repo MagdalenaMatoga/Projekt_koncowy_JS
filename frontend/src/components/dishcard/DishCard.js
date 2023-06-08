@@ -34,7 +34,7 @@ function DishCard(props) {
             <h3 className={styles.price}>{props.cardData.price} zł </h3>
 
 
-            <button onClick={addToCart} className={styles.btn}>Zamów</button>
+            <button onClick={addToCart} className={styles.btn}>Dodaj do koszyka</button>
 
         </div>
 

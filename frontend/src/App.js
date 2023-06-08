@@ -23,7 +23,7 @@ function App() {
                         <Link className="link" to="/">Home</Link>
                     </li >
                     <li className="navElement">
-                        <Link className="link"to="/dishes">Dishes</Link>
+                        <Link className="link"to="/dishes">Dania</Link>
                     </li>
                     <li className="navElement">
                         <Link className="link"to="/order">Kontakt</Link>

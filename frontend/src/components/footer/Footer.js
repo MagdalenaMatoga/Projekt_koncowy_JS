@@ -10,7 +10,7 @@ function Footer() {
       <footer className={styles.footer}>
   <div className={styles.footerContainer}>
     <div className={styles.footerInfo}>
-      <a href="/" className={styles.logo}>GoFresh</a>
+      <a href="/" className={styles.logo}>GreenEats</a>
       <span className={styles.footerCopy}>© 2023, All Rights Reserved</span>
     </div>
     <div className={styles.footerIcons}>

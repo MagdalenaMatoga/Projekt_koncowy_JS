@@ -20,7 +20,8 @@ function Order() {
 
   return (
     <div>
-      <h2>Order</h2>
+      <h2>Kontakt</h2>
+      
       <div className={styles.container}>
       <form className={styles.form} onSubmit={handleSubmit}>
         <label htmlFor="name" className={styles.label}>
