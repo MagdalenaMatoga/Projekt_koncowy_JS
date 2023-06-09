@@ -32,7 +32,7 @@ I will show you the opportunity to order exceptional dishes in the form of produ
 
 Go to the project directory.
 
-Type in console
+Type in console:
 
 ```bash
 json-server --watch db.json
