@@ -4,8 +4,8 @@ import BasketDetails from "../basket.Details/BasketDetails";
 import { CartContext } from "../../App";
 
 function Basket() {
-  const [cart] = useContext(CartContext);
-  const [isDetailsVisible, setIsDetailsVisible] = useState(false); //przy użyciu hooka  służy do śledzenia widoczności szczegółów koszyka
+  const [cart] = useContext(CartContext); //aktualny stan koszyka
+  const [isDetailsVisible, setIsDetailsVisible] = useState(false); //przy użyciu hooka - służy do śledzenia widoczności szczegółów koszyka
   const [totalCartItems, setTotalCartItems] = useState(0); //  stan do przechowywania liczby produktów w koszyku
 
   // monitorowanie zmian w koszyku. UseEffect oblicza sumę wszystkich ilości produktów w koszyku i aktualizuje stan totalCartItems z tą wartością.
@@ -18,7 +18,8 @@ function Basket() {
     setTotalCartItems(totalCount);
   }, [cart]);
 
-  //ToggleDetails, showDetails i closeDetails. wykorzystywane do przełączania widoczności szczegółów koszyka. toggleDetails sprawdza, czy szczegóły są aktualnie widoczne i na tej podstawie wywołuje showDetails lub closeDetails.
+  // funkcje pomocnicze ToggleDetails, showDetails i closeDetails. wykorzystywane do przełączania widoczności szczegółów koszyka. toggleDetails sprawdza, czy szczegóły są aktualnie widoczne i na tej podstawie wywołuje showDetails lub closeDetails. Są to funkcje pomocnicze używane do przełączania widoczności szczegółów koszyka. toggleDetails sprawdza, czy szczegóły są aktualnie widoczne, i na tej podstawie wywołuje showDetails lub closeDetails. showDetails ustawia isDetailsVisible na true, natomiast closeDetails ustawia go na false.
+
 
   const toggleDetails = () => {
     if (isDetailsVisible) {

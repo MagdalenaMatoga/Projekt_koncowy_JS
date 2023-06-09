@@ -4,20 +4,20 @@ import {CartContext} from "../../App";
 
 
 function DishCard(props) {
-    const [cart, setCart] = useContext(CartContext);
+    const [cart, setCart] = useContext(CartContext); //użycie hook useContext, który pobiera wartość cart i setCart z kontekstu CartContext (dostęp do koszyka i jego funkcji)
 
     const addToCart = () => {
         console.log(cart)
-        if (cart[props.cardData.id] === undefined) {
+        if (cart[props.cardData.id] === undefined) { //Sprawdza, czy produkt o identyfikatorze props.cardData.id już istnieje w koszyku 
             setCart({
                     ...cart,
-                    [props.cardData.id]: {quantity: 1, product: props.cardData}
+                    [props.cardData.id]: {quantity: 1, product: props.cardData} //jeśli nie istnieje dodawany jest jako nowy element z ilością (quantity) 1 
             })
         } else {
-            const existingItem = cart[props.cardData.id]
+            const existingItem = cart[props.cardData.id] //Jeśli produkt już istnieje w koszyku, pobierana jest jego istniejąca ilość (existingItem.quantity) i dodawane jest 1
             setCart({
                     ...cart,
-                    [props.cardData.id]: {quantity: existingItem.quantity + 1, product: props.cardData}
+                    [props.cardData.id]: {quantity: existingItem.quantity + 1, product: props.cardData} //
 
             })
         }

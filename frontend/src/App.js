@@ -6,6 +6,8 @@ import Order from "./pages/order/Order";
 import Basket from "./components/basket/Basket";
 import '../../frontend/src/components/fonts/Fonts.modules.scss'
 
+//CartContext.Provider> - dostarcza kontekst CartContext do komponentów podrzędnych, umożliwiając im dostęp do stanu koszyka i funkcji jego aktualizacji.
+
 export const CartContext = React.createContext([
     {},
     p => {}
