@@ -1,4 +1,4 @@
-# Witamy na GreenEats! 
+# Welcome to GreenEats! 
 
 
 **APP CONCEPT**: My first project, which aims to show you how to savor the flavors of culinary adventures in a convenient and innovative way, by connecting diverse recipes from around the world with the internet world, without leaving your home.
@@ -30,7 +30,7 @@ I will show you the opportunity to order exceptional dishes in the form of produ
 
 Go to the project directory.
 
-Type 
+Type in console:
 
 ```bash
 json-server --watch db.json
