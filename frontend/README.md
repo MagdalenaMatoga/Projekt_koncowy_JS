@@ -1,6 +1,6 @@
 # Witamy na GreenEats! 
 
-My first project that aims to show you how to savor the flavors of culinary adventures in a convenient and innovative way.
+**APP CONCEPT**:My first project that aims to show you how to savor the flavors of culinary adventures in a convenient and innovative way.
 
 
   ## 🍎 More  
