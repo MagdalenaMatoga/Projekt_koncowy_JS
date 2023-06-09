@@ -1,60 +1,88 @@
 {
   "dishes": [
     {
-      "id": 1,
-      "title": "spaghetti",
+      "id": 0,
+      "title": "Spaghetti bolognese",
       "picture": "spaghetti.jpg",
-      "price": "12",
+      "price": "25",
       "text": "Podstawą dobrego spaghetti bolognese jest prawidłowo przyrządzony sos boloński. Jakość użytych składników i staranność jego wykonania przekłada się na efekt końcowy. Idealny sos boloński powinien dosłownie rozpływać się w ustach i mieć jednolitą strukturę."
+    },
+    {
+      "id": 1,
+      "title": "Zapiekanka ziemniaczana",
+      "picture": "zapiekanka.jpg",
+      "price": "18.90",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, ex nec fermentum consequat, odio ligula tristique odio, non vestibulum arcu elit vitae velit. Pellentesque tincidunt posuere ultricies. Mauris accumsan, diam eu gravida auctor, turpis justo."
     },
     {
       "id": 2,
-      "title": "Makaron ze szparagami",
-      "picture": "AdobeStock_95385090.jpeg",
-      "price": "12",
-      "text": "Prosty przepis na spaghetti ze szparagami dla 2 osób, z dodatkiem oliwy, czosnku i natki pietruszki"
+      "title": "Gulasz z czarnej fasoli",
+      "picture": "miska.jpg",
+      "price": "31",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, ex nec fermentum consequat, odio ligula tristique odio, non vestibulum arcu elit vitae velit. Pellentesque tincidunt posuere ultricies. Mauris accumsan, diam eu gravida auctor, turpis justo."
     },
     {
       "id": 3,
-      "title": "aplle",
-      "picture": "spaghetti.jpg",
-      "price": "12",
-      "text": "Podstawą dobrego spaghetti bolognese jest prawidłowo przyrządzony sos boloński. Jakość użytych składników i staranność jego wykonania przekłada się na efekt końcowy. Idealny sos boloński powinien dosłownie rozpływać się w ustach i mieć jednolitą strukturę."
+      "title": "Sałatka grecka",
+      "picture": "salatka.jpg",
+      "price": "12.50",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, ex nec fermentum consequat, odio ligula tristique odio, non vestibulum arcu elit vitae velit. Pellentesque tincidunt posuere ultricies. Mauris accumsan, diam eu gravida auctor, turpis justo."
     },
     {
       "id": 4,
-      "title": "banana",
-      "picture": "spaghetti.jpg",
-      "price": "12",
-      "text": "Podstawą dobrego spaghetti bolognese jest prawidłowo przyrządzony sos boloński. Jakość użytych składników i staranność jego wykonania przekłada się na efekt końcowy. Idealny sos boloński powinien dosłownie rozpływać się w ustach i mieć jednolitą strukturę."
+      "title": "Pizza wegetariana ",
+      "picture": "pizza.jpg",
+      "price": "28.50",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, ex nec fermentum consequat, odio ligula tristique odio, non vestibulum arcu elit vitae velit. Pellentesque tincidunt posuere ultricies. Mauris accumsan, diam eu gravida auctor, turpis justo."
     },
     {
       "id": 5,
-      "title": "banana",
-      "picture": "spaghetti.jpg",
-      "price": "12",
-      "text": "Podstawą dobrego spaghetti bolognese jest prawidłowo przyrządzony sos boloński. Jakość użytych składników i staranność jego wykonania przekłada się na efekt końcowy. Idealny sos boloński powinien dosłownie rozpływać się w ustach i mieć jednolitą strukturę."
+      "title": "Wegańskie sushi",
+      "picture": "sushi.jpeg",
+      "price": "35.90",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, ex nec fermentum consequat, odio ligula tristique odio, non vestibulum arcu elit vitae velit. Pellentesque tincidunt posuere ultricies. Mauris accumsan, diam eu gravida auctor, turpis justo."
     },
     {
       "id": 6,
-      "title": "ananas",
-      "picture": "spaghetti.jpg",
-      "price": "12",
-      "text": "Podstawą dobrego spaghetti bolognese jest prawidłowo przyrządzony sos boloński. Jakość użytych składników i staranność jego wykonania przekłada się na efekt końcowy. Idealny sos boloński powinien dosłownie rozpływać się w ustach i mieć jednolitą strukturę."
+      "title": "Spaghetti aglio e olio",
+      "picture": "lgh.jpg",
+      "price": "18.60",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, ex nec fermentum consequat, odio ligula tristique odio, non vestibulum arcu elit vitae velit. Pellentesque tincidunt posuere ultricies. Mauris accumsan, diam eu gravida auctor, turpis justo."
     },
     {
       "id": 7,
-      "title": "orange",
-      "picture": "spaghetti.jpg",
-      "price": "12",
-      "text": "Podstawą dobrego spaghetti bolognese jest prawidłowo przyrządzony sos boloński. Jakość użytych składników i staranność jego wykonania przekłada się na efekt końcowy. Idealny sos boloński powinien dosłownie rozpływać się w ustach i mieć jednolitą strukturę."
+      "title": "Gulasz Primavera",
+      "picture": "gulasz.jpeg",
+      "price": "26.90",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, ex nec fermentum consequat, odio ligula tristique odio, non vestibulum arcu elit vitae velit. Pellentesque tincidunt posuere ultricies. Mauris accumsan, diam eu gravida auctor, turpis justo."
     },
     {
       "id": 8,
-      "title": "orange",
-      "picture": "spaghetti.jpg",
-      "price": "12",
-      "text": "Podstawą dobrego spaghetti bolognese jest prawidłowo przyrządzony sos boloński. Jakość użytych składników i staranność jego wykonania przekłada się na efekt końcowy. Idealny sos boloński powinien dosłownie rozpływać się w ustach i mieć jednolitą strukturę."
+      "title": "Pancakes",
+      "picture": "pancakes.jpg",
+      "price": "21",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, ex nec fermentum consequat, odio ligula tristique odio, non vestibulum arcu elit vitae velit. Pellentesque tincidunt posuere ultricies. Mauris accumsan, diam eu gravida auctor, turpis justo."
+    },
+    {
+      "id": 9,
+      "title": "Zestaw green party",
+      "picture": "zestaw.jpg",
+      "price": "35.50",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, ex nec fermentum consequat, odio ligula tristique odio, non vestibulum arcu elit vitae velit. Pellentesque tincidunt posuere ultricies. Mauris accumsan, diam eu gravida auctor, turpis justo."
+    },
+    {
+      "id": 10,
+      "title": "Warzywa z piekarnika",
+      "picture": "smazone.jpg",
+      "price": "17",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, ex nec fermentum consequat, odio ligula tristique odio, non vestibulum arcu elit vitae velit. Pellentesque tincidunt posuere ultricies. Mauris accumsan, diam eu gravida auctor, turpis justo."
+    },
+    {
+      "id": 11,
+      "title": "Risotto z grzybami",
+      "picture": "mukkath.jpg",
+      "price": "24",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt, ex nec fermentum consequat, odio ligula tristique odio, non vestibulum arcu elit vitae velit. Pellentesque tincidunt posuere ultricies. Mauris accumsan, diam eu gravida auctor, turpis justo."
     }
   ]
 }
