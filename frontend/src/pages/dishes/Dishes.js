@@ -38,6 +38,8 @@ function Dishes() {
         <DishCard cardData={data[9]} />
         <DishCard cardData={data[10]} />
         <DishCard cardData={data[11]} />
+      
+      
        
         </div>
      
