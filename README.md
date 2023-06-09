@@ -1,7 +1,7 @@
 # Witamy na GreenEats! 
 
 
-**APP CONCEPT**:My first project, which aims to show you how to savor the flavors of culinary adventures in a convenient and innovative way, by connecting diverse recipes from around the world with the internet world, without leaving your home.
+**APP CONCEPT**: My first project, which aims to show you how to savor the flavors of culinary adventures in a convenient and innovative way, by connecting diverse recipes from around the world with the internet world, without leaving your home.
 
   ## 🍎 More  
 
