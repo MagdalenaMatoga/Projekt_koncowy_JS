@@ -43,3 +43,9 @@ npm start
 Confirm the port change (Y).
 
 In development mode, localhost server will run on localhost:3001 with autoreloading.
+
+## 👏 CONTRIBUTE
+
+* Icons from flaticon: https://www.flaticon.com
+* Pictures from Freepik, Pexels: https://pl.freepik.com/ https://www.pexels.com/
+
