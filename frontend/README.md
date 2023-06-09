@@ -1,6 +1,6 @@
 # Witamy na GreenEats! 
 
-Website project that aims to show you how to savor the flavors of culinary adventures in a convenient and innovative way.
+My first project that aims to show you how to savor the flavors of culinary adventures in a convenient and innovative way.
 
 
   ## 🍎 More  
